@@ -23,5 +23,5 @@ resource "aws_instance" "dockerserver" {
 tags = { 
     Name = "dockerserver" 
     } 
-    user_data = file("tomcat.sh") 
+    user_data = file("Docker.sh") 
     }
